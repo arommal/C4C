@@ -47,7 +47,6 @@ BEGIN
 END;
 
 /* syntax untuk menguji Sequence & Trigger */
-INSERT INTO donatur(id_donatur,nama_lengkap,email,pass,no_telp,alamat) VALUES 
-(NULL,'Afia Hana','afiahana@gmail.com','1234ABCD','081722515879','Barata Jaya 3/12');
+INSERT INTO jenis_ekspedisi(id_ekspedisi,nama_ekspedisi) VALUES (NULL,'Si Kilat');
 
-SELECT * FROM Donatur WHERE Donatur.ID_Donatur = 'D0282';
+SELECT * FROM jenis_ekspedisi WHERE jenis_ekspedisi.id_ekspedisi = 'JE011';
