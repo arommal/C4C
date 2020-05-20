@@ -88,6 +88,22 @@ CREATE TABLE donasi_barang(
   ,tgl_donasi_brg    DATE NOT NULL 
 );
 
+CREATE TABLE log( 
+   id_log            VARCHAR(5) NOT NULL PRIMARY KEY 
+  ,id_event          VARCHAR(5) NOT NULL
+  ,id_penggalang     VARCHAR(5) NOT NULL 
+  ,id_sasaran        VARCHAR(5) NOT NULL 
+  ,id_status_event   VARCHAR(4) NOT NULL 
+  ,id_kategori_event VARCHAR(2) NOT NULL 
+  ,nama_event        VARCHAR(49) NOT NULL 
+  ,deskripsi_event   VARCHAR(139) NOT NULL 
+  ,bukti_penyerahan  BLOB 
+  ,tgl_terbuat       DATE  NOT NULL 
+  ,tgl_selesai       DATE  NOT NULL 
+  ,target            VARCHAR(136) NOT NULL
+  ,timestamp         DATE  NOT NULL 
+);
+
 ALTER TABLE barang   
  ADD CONSTRAINT fk_jenis_barang FOREIGN KEY (id_jenis_brg) REFERENCES jenis_barang (id_jenis_brg);
 

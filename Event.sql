@@ -18,3 +18,7 @@ INSERT INTO event(id_event,id_penggalang,id_sasaran,id_status_event,id_kategori_
 
 INSERT INTO event(id_event,id_penggalang,id_sasaran,id_status_event,id_kategori_event,nama_event,deskripsi_event,bukti_penyerahan,tgl_terbuat,tgl_selesai,target) VALUES 
 ('E2004','P0005','SE005','ST01','E2','Bersatu Melindungi Kaum Marginal ditengah Pandemi','Kolaborasi antara C4C dengan Bank Papua memberikan sembako terhadap orang jalanan dan tuna wisma di wilayah Jayapura, Papua',NULL,'04-May-2020','11-June-2020','500 Botol MinyakGoreng, 1000 Kg Beras, 500 Kg Gula, 500 Mentega, 200 Minyak Tanah, 500 Sabun Cuci Tangan, 200 Pasta Gigi');
+
+INSERT INTO event(id_event,id_penggalang,id_sasaran,id_status_event,id_kategori_event,nama_event,deskripsi_event,bukti_penyerahan,tgl_terbuat,tgl_selesai,target) VALUES   
+('E2005','P0005','SE005','ST01','E2','Bersatu Melindungi Kaum Marginal ditengah Pandemi','Kolaborasi antara C4C dengan Bank Papua memberikan sembako terhadap tuna wisma di wilayah Jayapura, Papua',NULL,'04-May-2020','11-June-2020','500 Botol Minyak  
+200 Pasta Gigi');
