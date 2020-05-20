@@ -1,5 +1,5 @@
 /*
-    Generate id_donatur secara otomatis berurutan saat penambahan data baru
+    Generate id_ekspedisi secara otomatis berurutan saat penambahan data baru
 
     Afia Hana Yusriya
     05111840000111
