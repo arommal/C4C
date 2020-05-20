@@ -18,3 +18,7 @@ begin
         :new.id_brg := new_id;
     end if;
 end;
+
+//untuk cek sequence & trigger yang dibuat
+INSERT INTO barang(id_brg,id_jenis_brg,nama_brg) VALUES ('B035','JB008','Roti Isi 5 bungkus');
+select * from barang
