@@ -7,6 +7,10 @@
     Manajemen Basis Data E 2020
 */
 
+//untuk menyediakan kolom hadiah
+alter table donasi_uang
+add hadiah varchar(25)
+
 CREATE OR REPLACE PROCEDURE generate_gift
 AS
     CURSOR hadiah IS
@@ -24,3 +28,8 @@ BEGIN
         END IF;
     END LOOP;
 END;
+
+//untuk cek procedure yang dibuat
+EXECUTE generate_gift
+
+SELECT * FROM donasi_uang
