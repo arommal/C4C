@@ -24,3 +24,6 @@ BEGIN
     END LOOP; 
     return total; 
 END;
+
+//untuk cek function yang dibuat
+SELECT jumlah_barang('B001') FROM DUAL
