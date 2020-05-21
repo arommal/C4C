@@ -8,24 +8,26 @@
 
 */
 
-create or replace function get_rekap  
+create or replace function get_rekap(idevent char) 
 return number     
 as     
     ret number;     
     total number;
     cursor tmp is     
-        select d.nominal     
-        from event e, donasi_uang d
-        where e.id_event = 'E1001' and e.id_event = d.id_event;     
+        select nominal, id_event    
+        from donasi_uang   
 begin     
     ret := 0;     
     for trans in tmp     
-    loop     
-        ret := ret + trans.nominal;     
+    loop   
+        if(idevent = trans.id_event)
+        then
+            ret := ret + trans.nominal;
+        end if;
     end loop;     
     return ret;     
 end;
 
 
 /* syntax menguji */
-select get_rekap from dual;
+select get_rekap('E1002') from dual;
