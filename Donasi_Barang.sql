@@ -446,7 +446,7 @@ INSERT INTO donasi_barang(id_donasi_brg,id_event,id_brg,id_ekspedisi,id_donatur,
 
 INSERT INTO donasi_barang(id_donasi_brg,id_event,id_brg,id_ekspedisi,id_donatur,jumlah,no_resi,status_pengiriman,tgl_donasi_brg) VALUES ('DON20000216','E2001','B007','JE001','D0107',60,'PI1892783784098',NULL,(TO_DATE('2020-04-13 16:28:14', 'YYYY-MM-DD HH24:MI:SS')));
 
-INSERT INTO donasi_barang(id_donasi_brg,id_event,id_brg,id_ekspedisi,id_donatur,jumlah,no_resi,status_pengiriman,tgl_donasi_brg) VALUES ('DON20000217','E2004','B001','JE010','D0114',80,'NX3351625341331',NULL,(TO_DATE('2020-06-06;
+INSERT INTO donasi_barang(id_donasi_brg,id_event,id_brg,id_ekspedisi,id_donatur,jumlah,no_resi,status_pengiriman,tgl_donasi_brg) VALUES ('DON20000217','E2004','B001','JE010','D0114',80,'NX3351625341331',NULL,(TO_DATE('2020-06-06 18:21:00', 'YYYY-MM-DD HH24:MI:SS')));
 
 INSERT INTO donasi_barang(id_donasi_brg,id_event,id_brg,id_ekspedisi,id_donatur,jumlah,no_resi,status_pengiriman,tgl_donasi_brg) VALUES ('DON20000219','E2002','B002','JE009','D0128',40,'MNX223143241322',NULL,(TO_DATE('2020-05-01 10:27:24', 'YYYY-MM-DD HH24:MI:SS')));
 

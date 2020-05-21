@@ -1,5 +1,5 @@
 /*
-    Generate id_donatur secara otomatis berurutan saat penambahan data baru
+    Generate id_ekspedisi secara otomatis berurutan saat penambahan data baru
 
     Afia Hana Yusriya
     05111840000111
@@ -7,7 +7,7 @@
 */
 
 /*SEQUENCE*/
-CREATE SEQUENCE SEQ_DONATUR
-START WITH 281
+CREATE SEQUENCE SEQ_EKSPEDISI
+START WITH 11
 INCREMENT BY 1
 MAXVALUE 999;
